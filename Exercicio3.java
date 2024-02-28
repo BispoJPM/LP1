@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-public class Exercicio5 {
-
+public class Exercicio3 {
         public static void main(String[] args){
-
+                
         Scanner nota = new Scanner(System.in);
 
         float P1;
