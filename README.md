@@ -1,1 +1,1 @@
-# Ling_Prog
+# GitHub dedicado as atividades de Linguagem de Programação
