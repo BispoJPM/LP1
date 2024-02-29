@@ -1,4 +1,3 @@
-package Ling_Prog;
 public class Exercicio2 {
     public static void main(String[] args) {
         int janeiro;
