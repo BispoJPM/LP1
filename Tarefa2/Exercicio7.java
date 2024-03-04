@@ -11,12 +11,11 @@ public class Exercicio7 {
         System.out.print("Digite um valor: ");
         v1 = valor.nextInt();
 
-        if (v1 >= 10)
+        if (v1 > 10)
         System.out.print(v1 + " é maior que 10!");
+        else if (v1 == 10)
+        System.out.print(v1 + " é igual a 10");
         else
         System.out.print(v1 + " é menor que 10!");
-        {
-            
-        }
     }
 }

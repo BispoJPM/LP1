@@ -13,7 +13,7 @@ public class Exercicio6 {
 
         float Celsius = (Fahrenheit - 32) / (1.8f);
 
-        System.out.print("A temperatura em Celsius é: " + Celsius);
+        System.out.printf("A temperatura em Celsius é: %.0f", Celsius);
         Celsius = tempo.nextFloat();
     }
 }
