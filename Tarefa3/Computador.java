@@ -12,6 +12,9 @@ public class Computador {
     public String ligar(int velocidade){
         return("De 0 a 10, o pc liga quão rapido? 0 - muito lento / 10 - muito rapido: " + velocidade);
     }
-    
+    public void navegar(String lentidao){
+        System.out.println("\n" + "O PC ele é: " + lentidao);
+    }
+
     
 }
