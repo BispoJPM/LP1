@@ -5,8 +5,7 @@ public class Coxinha {
     private String receita;
     private String tamanho;
     private String recheio;
-
-        
+  
     public String comer(int quantas){
         return("\n"+"Comi " + quantas + " Coxinhas"+"\n");
     }

@@ -15,7 +15,7 @@ public class Pokemon {
 
     public boolean transferir(int av){
         boolean af=true;
-        if(av%4==0) af=false;
+        if(av%2==0) af=false;
         return af;
     }
 
