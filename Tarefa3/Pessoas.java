@@ -8,8 +8,8 @@ public class Pessoas {
     public String andar(int andei){
         return("Hoje eu andei " + " metros");
     }
-    public String comer(int sera){
-        return("Hoje eu comi " + "tipos diferentes de comida");
+    public String aguar(int sera){
+        return("Hoje eu aguei " + " para diferentes tipos de comida");
     }
     public void pagar(int pagamento){
         System.out.println("Eu paguei " + pagamento + "em um prato feito no restaurante");
