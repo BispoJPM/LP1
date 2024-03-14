@@ -5,7 +5,19 @@ public class Coxinha {
     private String receita;
     private String tamanho;
     private String recheio;
-  
+ 
+    public void setReceita(String receita) {
+        this.receita = receita;
+    }
+
+    public void setTamanho(String tamanho) {
+        this.tamanho = tamanho;
+    }
+
+    public void setRecheio(String recheio) {
+        this.recheio = recheio;
+    }
+
     public String comer(int quantas){
         return("\n"+"Comi " + quantas + " Coxinhas"+"\n");
     }
@@ -26,9 +38,6 @@ public class Coxinha {
         c1.recheio= "Frango";
         System.out.println(c1.comer(5));
         System.out.println(c1.armazenagem("Congelei"));
-
-
-
     }
 
     }
