@@ -5,6 +5,24 @@ public class Pessoas {
     private double altura;
     private String cabelo;
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+    public void setCabelo(String cabelo) {
+        this.cabelo = cabelo;
+    }
+    public String getNome() {
+        return nome;
+    }
+    public double getAltura() {
+        return altura;
+    }
+    public String getCabelo() {
+        return cabelo;
+    }
     public String andar(int andei){
         return("Hoje eu andei " + " metros");
     }

@@ -5,6 +5,24 @@ public class Flores {
     private int petalas;
     private String nome;
 
+    public void setEstação(String estação) {
+        this.estação = estação;
+    }
+    public void setPetalas(int petalas) {
+        this.petalas = petalas;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public String getEstação() {
+        return estação;
+    }
+    public int getPetalas() {
+        return petalas;
+    }
+    public String getNome() {
+        return nome;
+    }
     public String cheirar(int flores1){
         return("Hoje eu cheirei " + flores1 + "flores, no caminho para casa");
     }

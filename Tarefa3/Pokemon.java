@@ -5,6 +5,30 @@ public class Pokemon {
     private Double tamanho;
     private int nível;
 
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setTamanho(Double tamanho) {
+        this.tamanho = tamanho;
+    }
+
+    public void setNível(int nível) {
+        this.nível = nível;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public Double getTamanho() {
+        return tamanho;
+    }
+
+    public int getNível() {
+        return nível;
+    }
+
     public String capturei(int quantas){
         return("Capturei " + quantas + " Pokemons");
     }

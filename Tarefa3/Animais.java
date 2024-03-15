@@ -6,6 +6,30 @@ public class Animais {
         private String tipo;
         private String mobilidade;
 
+        public void setPernas(int pernas) {
+            this.pernas = pernas;
+        }
+
+        public void setTipo(String tipo) {
+            this.tipo = tipo;
+        }
+
+        public void setMobilidade(String mobilidade) {
+            this.mobilidade = mobilidade;
+        }
+
+        public int getPernas() {
+            return pernas;
+        }
+
+        public String getTipo() {
+            return tipo;
+        }
+
+        public String getMobilidade() {
+            return mobilidade;
+        }
+
         public String domar(int quantos){
             return("\n"+"Foram domados " + quantos + " animais"+"\n");
         }

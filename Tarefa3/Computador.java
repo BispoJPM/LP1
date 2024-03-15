@@ -6,6 +6,24 @@ public class Computador {
     private int memoria;
     private int monitores;
 
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+    public void setMemoria(int memoria) {
+        this.memoria = memoria;
+    }
+    public void setMonitores(int monitores) {
+        this.monitores = monitores;
+    }
+    public String getMarca() {
+        return marca;
+    }
+    public int getMemoria() {
+        return memoria;
+    }
+    public int getMonitores() {
+        return monitores;
+    }
     public String jogar(double horas){
         return("\n" + "Eu passei " + horas + "horas jogando");
     }
